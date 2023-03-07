@@ -1,0 +1,42 @@
+Program ini adalah sistem pemesanan hotel sederhana yang memungkinkan pengguna untuk masuk atau mendaftar, melihat opsi kamar, melakukan pemesanan, dan mendapatkan bantuan jika diperlukan.
+
+Program dimulai dengan layar masuk atau pendaftaran tempat pengguna memasukkan kredensial mereka. Setelah pengguna masuk, mereka disajikan dengan menu utama, di mana mereka dapat memilih untuk melihat opsi kamar, melakukan pemesanan, atau mendapatkan bantuan.
+
+Jika pengguna memilih untuk melihat opsi kamar, mereka disajikan dengan daftar kamar yang tersedia dan harganya. Jika mereka memilih untuk melakukan pemesanan, mereka diminta mengisi formulir dengan detail pribadi dan detail pemesanan mereka, seperti tanggal check-in dan check-out serta jumlah kamar yang ingin dipesan.
+
+Setelah pengguna mengisi formulir, program menghitung total harga pemesanan dan menampilkannya kepada pengguna. Pengguna kemudian dapat mengonfirmasi pemesanan, dan program menyimpan detail pemesanan.
+
+Jika pengguna memilih untuk mendapatkan bantuan, mereka diberikan daftar opsi, seperti cara memesan kamar, opsi pembayaran, kebijakan pembatalan, dan informasi kontak.
+
+
+Berikut adalah pseudocode dari program :
+
+Membuat dictionary untuk data pengguna dan fungsi untuk login dan sign up
+
+Buat dictionary users untuk menyimpan username dan password
+Buat fungsi login() untuk login pengguna
+Buat fungsi sign_up() untuk membuat akun baru
+Membuat fungsi untuk menu kamar
+
+Buat fungsi menu_kamar()
+Tampilkan opsi kamar dan harga
+Terima input dari pengguna dan tampilkan informasi kamar yang dipilih
+Membuat kelas Pesanan dan fungsi untuk formulir pemesanan
+
+Buat kelas Pesanan dengan atribut nama, umur, check_in, time_in, check_out, time_out, dan price
+Buat fungsi formulir() untuk menampilkan informasi pemesanan
+Membuat fungsi untuk menu bantuan
+
+Buat fungsi bantuan()
+Tampilkan opsi menu bantuan
+Terima input dari pengguna dan tampilkan informasi sesuai dengan pilihan
+Membuat fungsi untuk menghitung harga kamar
+
+Buat fungsi price_kam(jum_kam, har_kam) untuk menghitung harga kamar berdasarkan jumlah kamar dan harga kamar
+Membuat fungsi untuk membuat garis pembatas
+
+Buat fungsi print_separator() untuk membuat garis pembatas
+Menjalankan program utama
+
+Tampilkan opsi menu utama
+Terima input dari pengguna dan jalankan fungsi yang sesuai dengan pilihan
