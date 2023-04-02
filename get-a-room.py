@@ -209,5 +209,6 @@ while mulai:
         sign_up()
     elif start == 3:
         print('Keluar')
+        break
     else:
         print('Input Failed')
